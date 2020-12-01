@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shortest Job First - Non Preemptive</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Shortest Job First - Non - Preemptive Scheduling Animation </h1>
+        </header>
+        <main>
+            <div class="container">
+                <table id="tbl">
+                    <thead>
+                        <tr>
+                            <th>Process Name</th>
+                            <th>Process Duration</th>
+                            <th>Time Executed</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <form id = "form">
+                                <td><input type = "text" name="pname"/></td>
+                                <td><input type = "number" name="pduration"/></td>
+                                <td></td>    
+                            </form>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit" class="btn" id = "addRow"> Add Row</button>
+                <button type="button" class="btn" id = "delRow"> Delete Row</button>
+                <button type="submit" class="btn" id = "exe">Execute</button>
+            </div>
+            <br/>
+            <br/>
+
+            <div id = "animation">
+                <p>
+                    <h2>Animation</h2>
+                </p>
+                <table id = "tbl1">
+                    <thead>
+                        <tr id = "Thead">
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id = "Tbody">
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>
+                Timer: <strong id="timer"></strong> sec
+            </p>
+        </main>
+    </body>
+</html>

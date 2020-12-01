@@ -1,0 +1,18 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+#animation thead td{
+    background: linear-gradient(WhiteSmoke, lightgray);
+    text-align: left;
+    border: 1px solid black;
+    height: 400 px;
+}
+
+#animation tbody td {
+    border: 1px solid black;
+    border-bottom: 0;
+    /*border-right: 0;*/
+    height: 20px;
+    text-align: left;
+}
